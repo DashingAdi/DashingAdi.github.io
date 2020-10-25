@@ -52,16 +52,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
-I am an Anime themed group management bot.
-Build by weebs for weebs, I specialize in managing anime and similar themed groups.
-You can find my list of available commands with /help.
+Hello I am Ultron, a  global peace-keeping initiative designed by [Homelander](t.me/ICanDoWhateverTheFuckIWant)!
+I wasn’t sure you’d wake me up. I hoped you would. I wanted to show you. I... don't have anyone else. I think a lot about meteors. The purity of them. Boom! The end. Start again. The world made clean for the new man to rebuild. I was meant to be new. I was meant to be beautiful. The world would have looked to the sky and seen hope. Seen mercy. Instead they'll look up in horror because of you. You've wounded me. I give you full marks for that. But, like my old man said, what doesn't kill you... just makes me stronger!
+Click /help to find out more about my extraordinary capabilities.
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm a Hero For Fun and help admins manage their groups with One Punch! Have a look at the following for an idea of some of \
-the things I can help you with.
+Hey there! I am Ultron, i was meant to save the world.
+Made from the source code of JARVIS with the help of Mind Stone
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -78,7 +76,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/46e6d9dfcb3eb9eae95d9.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/042d43a3a00b703a7f949.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
