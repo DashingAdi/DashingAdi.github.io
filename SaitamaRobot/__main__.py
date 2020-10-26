@@ -70,7 +70,7 @@ Have a look at the following for an idea of some of the things I can help you wi
    • in a group: will redirect you to pm, with all that chat's settings.
 
 
-{}
+All commands can be used only with /
 And the following:
 """.format(
     dispatcher.bot.first_name, ""
