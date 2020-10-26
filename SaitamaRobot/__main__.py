@@ -55,7 +55,7 @@ PM_START_TEXT = """
 Hello I am Ultron, a  global peace-keeping initiative designed by Homelander.
 Made from the source code of JARVIS with the help of Mind Stone.
 
-Click /help to find out more about my extraordinary capabilities.
+Click /help to find out more about me to use me to my full potential.
 """
 
 HELP_STRINGS = """
