@@ -52,19 +52,19 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello I am Ultron, a  global peace-keeping initiative designed by [Homelander](t.me/ICanDoWhateverTheFuckIWant)!
-I wasn’t sure you’d wake me up. I hoped you would. I wanted to show you. I... don't have anyone else. I think a lot about meteors. The purity of them. Boom! The end. Start again. The world made clean for the new man to rebuild. I was meant to be new. I was meant to be beautiful. The world would have looked to the sky and seen hope. Seen mercy. Instead they'll look up in horror because of you. You've wounded me. I give you full marks for that. But, like my old man said, what doesn't kill you... just makes me stronger!
+Hello I am Ultron, a  global peace-keeping initiative designed by Homelander.
+Made from the source code of JARVIS with the help of Mind Stone.
+
 Click /help to find out more about my extraordinary capabilities.
 """
 
 HELP_STRINGS = """
 Hey there! I am Ultron, i was meant to save the world.
-Made from the source code of JARVIS with the help of Mind Stone
+Have a look at the following for an idea of some of the things I can help you with if... I'm in the mood.
 
 *Main* commands available:
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
  • /settings:
    • in PM: will send you your settings for all supported modules.
    • in a group: will redirect you to pm, with all that chat's settings.
@@ -77,11 +77,6 @@ And the following:
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/042d43a3a00b703a7f949.jpg"
-
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Saitama is hosted on one of Kaizoku's Servers and doesn't require any donations as of now but \
-You can donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -199,31 +194,23 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text="☑️ Add Saitama to your group",
+                            text="☑️ Add Ultron to your group",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
                              text="🚑 Support Group",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
-                         InlineKeyboardButton(
-                             text="🔔 Updates Channel",
-                             url="https://t.me/OnePunchUpdates")
+                             url=f"https://t.me/UltronSupportGroup"),
                      ],
-                     [
-                         InlineKeyboardButton(
-                             text="🧾 Getting started guide",
-                             url="https://t.me/OnePunchUpdates/29")
-                     ],
-                     [
+                      [
                          InlineKeyboardButton(
                              text="🗄 Source code",
-                             url="https://github.com/AnimeKaizoku/SaitamaRobot")
+                             url="https://github.com/DashingAdi/SaitamaRobot")
                      ]]))
     else:
         update.effective_message.reply_text(
-            "I'm online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
+            "Fuck Yeah! I'm back online!\n<b>Up since:</b> <code>{}</code>".format(uptime),
             parse_mode=ParseMode.HTML)
 
 
