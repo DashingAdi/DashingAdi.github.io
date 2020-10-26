@@ -13,7 +13,7 @@ The Support group can be reached out to at [Ultron Support Group](https://t.me/U
 
 ### Read these notes carefully before proceeding 
  - Edit any mentions of @UltronSupportGroup to your own support chat. 
- - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/DashingAdi/SaitamaRobot/blob/shiken/SaitamaRobot/__main__.py#L25)
+ - Your code must be open source and a link to your fork's repository must be there in the start reply of the bot. [See this](https://github.com/DashingAdi/Ultron-TheEvilBot/blob/shiken/SaitamaRobot/__main__.py#L25)
  - Lastly, if you are found to run this repo without the code being open sourced or the repository link not mentioned in the bot, we will push a gban for you in our network because of being in violation of the license, you are free to be a dick and not respect the open source code (we do not mind) but we will not be having you around our chats.
 
 
@@ -27,7 +27,7 @@ REMEMBER: Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashingAdi/SaitamaRobot.git)
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashingAdi/Ultron-TheEvilBot.git)
 
 </details>  
 <details>
@@ -195,7 +195,7 @@ For queries or any issues regarding the bot please open an issue ticket or visit
 ## How to setup on Heroku 
 For starters click on this button 
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashingAdi/SaitamaRobot.git) 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/DashingAdi/Ultron-TheEvilBot.git) 
 
 Any other authorship/credits can be seen through the commits.
 
