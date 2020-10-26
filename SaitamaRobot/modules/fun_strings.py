@@ -26,14 +26,14 @@ GIFS = [
     'CgACAgUAAx0CU_rCTAABAjdSX1s3fq5iEJ64YeQLKI8cD7CSuSEAAlUBAAJu09hW5iqWB0hTPD4bBA'
 ]
 
-SLAP_SAITAMA_TEMPLATES = (
-    "Slap me one more time and I'll mute you.",
-    "Stop slapping me. REEEEEEEEEEEEEE.",
+SLAP_ULTRON_TEMPLATES = (
+    "Slap me one more time and I'll fucking mute you!",
+    "Stop slapping me or My master will laser you goddamn it!.",
     [
-        "I am muting you for a minute.",  # normal reply
-        "Stop slapping me just because I can't mute you. REEEEEEEEEE.",  # reply to admin
+        "I'm muting you till you learn your lesson!",  # normal reply
+        "Stop slapping me or I'm gonna call the cops.",  # reply to admin
         "tmute",  # command
-        "Shut up!",
+        "Shut the fuck up!",
         "Silence!"
     ])
 
@@ -142,6 +142,7 @@ SLAP_TEMPLATES = (
     "@NeoTheKitty scratches {user2}",  #Pixels pet cat - @NeoTheKitty 
     "Majin buu ate {user2}",  #Dbz
     "Goblin slayer slays {user2}",  #Goblin Slayer
+    "{user2} got lasered by Homelander!",
 )
 
 PAT_TEMPLATES = (
@@ -180,6 +181,7 @@ PAT_TEMPLATES = (
     "(*￣▽￣)ノ”(- -*)",
     "(っ´ω`)ﾉ(╥ω╥)",
     "( ´Д｀)ﾉ(´･ω･`) ﾅﾃﾞﾅﾃﾞ",
+    "I like ya cut g *proceeds to hit {user2}'s head*",
 )
 
 PAT_GIFS = (
@@ -187,8 +189,8 @@ PAT_GIFS = (
     "CgACAgEAAxkBAALRYF9Xs8EnhsDfDpld3ILoqTbzDmwxAAJFAAOJxjlHECanwn69E5QbBA")
 
 PAT_STICKERS = (
-    "CAACAgQAAxkBAALRWV9Xs4HH0XaXfhZe-jWaZoXfs-IsAAJYAwACdDgSEHYOt4KvL02oGwQ",
-    "CAACAgQAAxkBAALRXF9Xs6XmIeDbnoL1wiDky0TdX-CvAAKKAQAC1TMzC9A3CtiT2rqVGwQ")
+    "CAACAgIAAxkBAAEGhdxflpzdnn5dP3XTGY8yH1EeDZf0DwACdwADTLa2EJMc0R8rDUYwGwQ",
+    "CAACAgUAAxkBAAEGhdhflpyddZGGUrgmGGjvvfs6kZFH4AACQgEAAhNtuVSHhFjnhyR5UxsE")
 
 PING_STRING = (
     "PONG!!",
