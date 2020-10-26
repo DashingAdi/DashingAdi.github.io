@@ -62,21 +62,24 @@ HELP_STRINGS = """
 Hey there! I am Ultron, i was meant to save the world.
 Have a look at the following for an idea of some of the things I can help you with if... I'm in the mood.
 
-*Main* commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
-
+See The Following *Main* *Commands* : 
+ ➡ /start: start the bot
+ ➡ /help: PM's you this message.
+ ➡ /help <module name>: PM's you info about that module.
+ ➡ /donate: information about how to donate!
+ ➡ /settings:
+ ➡ in PM: will send you your settings for all supported modules.
+ ➡ in a group: will redirect you to pm, with all that chat's settings.
 
 All commands can be used only with /
-And the following:
+Look at the following:
 """.format(
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 SAITAMA_IMG = "https://telegra.ph/file/042d43a3a00b703a7f949.jpg"
+
+DONATE_STRING = """Hey There! Wanna Donate Me? Amazing! But I Don't Wanna Accept. Instead Support [My Master](https://t.me/ICanDoWhateverTheFuckIWant) By Joining [Support Group](https://t.me/UltronSupportGroup). """
 
 IMPORTED = {}
 MIGRATEABLE = []
