@@ -1,14 +1,14 @@
 {
-      "name": "SaitamaRobot",
-      "description": "An Anime themed Telegram group management bot.",
+      "name": "Ultron",
+      "description": "An A.I themed Telegram group management bot.",
       "keywords": [
          "telegram",
          "anime",
          "group",
          "manager",
-         "Saitama"
+         "Ultron"
       ],   
-   "repository": "https://github.com/AnimeKaizoku/SaitamaRobot",
+   "repository": "https://github.com/DashingAdi/SaitamaRobot",
    "addons": [
       {
          "options": {
